@@ -42,7 +42,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var express_1 = __importDefault(require("express"));
 var apollo_server_express_1 = require("apollo-server-express");
 var schema_1 = __importDefault(require("./schema"));
-var _a = process.env.SERVER_PORT, SERVER_PORT = _a === void 0 ? 3000 : _a;
+var _a = process.env.SERVER_PORT, SERVER_PORT = _a === void 0 ? 5000 : _a;
 var run = function () { return __awaiter(void 0, void 0, void 0, function () {
     var server, app;
     return __generator(this, function (_a) {
